@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hr.fer.ruazosa.sharemylocation.CreateGroupActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="50dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:weightSum="1"
+        tools:ignore="MissingConstraints,RtlHardcoded,RtlSymmetry"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="-11dp">
+
+        <ImageView
+            android:id="@+id/photoadd"
+            android:layout_width="330dp"
+            android:layout_height="117dp"
+            android:layout_weight="0.21"
+            android:clickable="true"
+            android:onClick="addPhoto"
+            android:src="@drawable/addphoto"
+            tools:ignore="ContentDescription,InefficientWeight"/>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/addGroupName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:text="GROUP NAME:"
+        app:layout_constraintBaseline_toBaselineOf="@+id/editGroupName"
+        app:layout_constraintLeft_toLeftOf="parent"></TextView>
+
+    <EditText
+        android:id="@+id/editGroupName"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="29dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:inputType="text"
+        android:maxLength="20"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+    </EditText>
+
+
+    <TextView
+        android:id="@+id/addAdminName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="38dp"
+        android:text="ADMIN USERNAME:"
+        app:layout_constraintBaseline_toBaselineOf="@+id/editAdminName"
+        app:layout_constraintLeft_toLeftOf="parent"></TextView>
+
+    <EditText
+        android:id="@+id/editAdminName"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="29dp"
+        android:layout_marginTop="38dp"
+        android:background="@color/colorPrimaryDark"
+        android:inputType="text"
+        android:maxLength="20"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+    </EditText>
+
+
+    <Button
+        android:id="@+id/btnCreateGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/colorPrimary"
+        android:onClick="saveReg"
+        android:text="create group"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+

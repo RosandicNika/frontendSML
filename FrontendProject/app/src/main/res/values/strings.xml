@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ShareMyLocation</string>
+    <string name="user_name">Username...</string>
+    <string name="pass_word">Password...</string>
+    <string name="forgot_pass">Forgot your password?</string>
+    <string name="register">No account? Register.</string>
+    <string name="login">LOG IN</string>
+    <string name="addusername">USERNAME:</string>
+    <string name="addpass">PASSWORD:</string>
+    <string name="repeatpass">RE-TYPE PASSWORD:</string>
+    <string name="addmail">E-MAIL:</string>
+    <string name="name">FIRST NAME:</string>
+    <string name="lastname">LAST NAME:</string>
+    <string name="phone">PHONE NUMBER:</string>
+    <string name="empty">  </string>
+    <string name="save">SAVE</string>
+    <string name="groups">GROUPS</string>
+    <string name="newGroup">NEW GROUP</string>
+
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="sex">SEX(M/F)</string>
+    <string name="different_password_error">Not the same password</string>
+    <string name="invalid_mail">Invalid mail format</string>
+    <string name="addnewpass">NEW PASSWORD:</string>
+    <string name="retypenewpass">RE-TYPE:</string>
+    <string name="setnewpass">SET NEW PASSWORD</string>
+</resources>
